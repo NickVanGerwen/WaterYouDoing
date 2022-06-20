@@ -1,0 +1,54 @@
+{
+    "name": "SoapBalancingControlMaster",
+    "maps": [
+        {
+            "name": "Controls",
+            "id": "67ced49a-0af2-4d62-911e-2742fd7e3da2",
+            "actions": [
+                {
+                    "name": "Touch",
+                    "type": "Button",
+                    "id": "d229ec37-4031-4e15-82ed-3d622ef5ed77",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "rotate",
+                    "type": "Button",
+                    "id": "f6be389a-7a4d-4e2c-b5ff-bc0ea26152f3",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "f1bed8e4-b02d-48ef-9324-d8f2bd036b34",
+                    "path": "<Touchscreen>/Press",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Touch",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "b2fef5ed-e008-462c-8d6d-9699f70b9cb3",
+                    "path": "<Sensor>",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "rotate",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
